@@ -4,3 +4,10 @@ Warranty has a ManyToMany relationship to Products, with a join table of Warrant
 information about the relatioship, such as Square Footage.
 
 Warranty also contains several Users, including the Dealer selling the Product, the Installer and the Customer
+
+Based on a series of rules, provided by the client, a Warranty may be automatically approved and a PDF of the terms
+emailed to the Customer. If a Warranty is not automatically approved, an administrator from the client will be
+tasked with making a determination and Approving or Denying the Warranty application.
+
+In some cases, a Warranty may contain a Glass Protection rider which covers window glass in case the original
+window warranty is voided by applying the client's Product.
